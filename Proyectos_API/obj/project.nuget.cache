@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vDrrDn38v3Xlms99z25XeL2QARX4U5e1nklxV91xANSwqCHHl/9Jh9HOGVLR2Wa6d0yHDrrvDrgLN2Gda8OasQ==",
+  "dgSpecHash": "FMXJ0KR1T7twC8qdt1ZL2qIYwseDqtpBSu/YuAG5MPY8qxt3Ere04FlhtP8Ni4x3jbmbDIX9EtCkU+8DlZXYfg==",
   "success": true,
   "projectFilePath": "C:\\Datos D\\Desktop\\React Projects\\MernTasks\\Proyectos\\Proyectos_API\\Proyectos_API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Alejandro\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Alejandro\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Alejandro\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Alejandro\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Alejandro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
