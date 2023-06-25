@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -8,6 +9,7 @@ using Proyectos_API.Models;
 using Proyectos_API.Models.Dto;
 using Proyectos_API.Repositorio.IRepositorio;
 using System.Net;
+using System.Security.Claims;
 
 namespace Proyectos_API.Controllers
 {
@@ -28,11 +30,19 @@ namespace Proyectos_API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<APIResponse>> GetVillas()
         {
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+
+            var RToken = Jwt.ValidarToken(identity);
+
+            if (!RToken.success) return RToken;
+
             try
             {
+                
                 _logger.LogInformation("Obtener las villas");
 
                 IEnumerable<Villa> villaList = await _villaRepo.ObtenerTodos();

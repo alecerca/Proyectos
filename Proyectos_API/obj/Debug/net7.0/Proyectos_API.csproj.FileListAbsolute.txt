@@ -80,3 +80,4 @@ C:\Datos D\Desktop\React Projects\MernTasks\Proyectos\Proyectos_API\bin\Debug\ne
 C:\Datos D\Desktop\React Projects\MernTasks\Proyectos\Proyectos_API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Datos D\Desktop\React Projects\MernTasks\Proyectos\Proyectos_API\bin\Debug\net7.0\AutoMapper.dll
 C:\Datos D\Desktop\React Projects\MernTasks\Proyectos\Proyectos_API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Datos D\Desktop\React Projects\MernTasks\Proyectos\Proyectos_API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
